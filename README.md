@@ -12,8 +12,15 @@
   <li>Insomnia</li>
 </ul>
 
+#### Usage
+<ul>
+  <li>This project requires Java v17 or later.</li>
+  <li>you should also update your file application.properties to include your data source username and password.</li>
+  <li>you need an api platform to test the application, I recommend using postMan or insomnia.</li>
+</ul>
 
 #### Data for POST and PUT sending
+
 + post - url: http://localhost:8080/doctors
   + Response 200 (application/json)
 
