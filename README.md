@@ -1,6 +1,6 @@
 # medical-clinic
 
-technology
+Technology
 
 <ul>
   <li>SpringBoot 3</li>
@@ -13,6 +13,7 @@ technology
 </ul>
 
 
+#### Data for POST and PUT sending
 + post - url: http://localhost:8080/doctors
   + Response 200 (application/json)
 
@@ -34,3 +35,13 @@ technology
                   "complement": "complemento"
                   }
               }
+              
++ put - url: http://localhost:8080/doctors
+   + Response 200 (application/json)
+
+      + Body
+
+            {
+              "id" : 1,
+              "name" : "jose otavio2"
+            }
