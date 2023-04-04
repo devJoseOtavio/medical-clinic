@@ -35,7 +35,7 @@ public class Address {
         this.state = data.state();
     }
 
-    public void updateDoctor(AddressData data) {
+    public void update(AddressData data) {
         if (data.publicplace() != null) this.publicplace = data.publicplace();
         if (data.neighborhood() != null) this.neighborhood = data.neighborhood();
         if (data.zipcode() != null) this.zipcode = data.zipcode();

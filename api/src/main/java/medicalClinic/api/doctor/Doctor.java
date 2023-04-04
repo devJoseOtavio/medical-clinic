@@ -44,6 +44,6 @@ public class Doctor {
 
         if (data.telephone() != null) this.telephone = data.telephone();
 
-        if (data.address() != null) this.address.updateDoctor(data.address());
+        if (data.address() != null) this.address.update(data.address());
     }
 }
