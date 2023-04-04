@@ -19,7 +19,7 @@
   <li>you need an api platform to test the application, I recommend using postMan or insomnia.</li>
 </ul>
 
-#### Data for POST and PUT sending
+#### Doctor Data for POST, PUT, LIST and DELETE sending
 
 + post - url: http://localhost:8080/doctors
   + Response 200 (application/json)
@@ -50,5 +50,48 @@
 
             {
               "id" : 1,
-              "name" : "jose otavio2"
+              "name" : "jose otavio2",
+              "crm": "553765"
             }
+            
++ get - url: http://localhost:8080/doctors
+
++ delete - url: http://localhost:8080/doctors
+
+#### Patient Data for POST, PUT, LIST and DELETE sending
+
++ post - url: http://localhost:8080/patients
+  + Response 200 (application/json)
+
+      + Body
+
+             {
+              "name": "Jose Otavio",
+              "email": "jose.otavio@clinic.med",
+              "telephone": "996130678",
+              "cpfcnpj": "12345678910",
+              "address": {
+                  "publicplace": "rua 1",
+                  "neighborhood": "bairro",
+                  "zipcode": "12345678",
+                  "city": "Joinville",
+                  "state": "SC",
+                  "number": "1",
+                  "complement": "complemento"
+                  }
+              }
+              
++ put - url: http://localhost:8080/patients
+   + Response 200 (application/json)
+
+      + Body
+
+            {
+              "id" : 1,
+              "name" : "jose otavio2",
+              "cpfcnpj" : "1234567891234"
+            }
+            
++ get - url: http://localhost:8080/patients
+
++ delete - url: http://localhost:8080/patients
