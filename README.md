@@ -9,7 +9,7 @@
   <li>MySQL / FlyWay</li>
   <li>JPA / Hibernate</li>
   <li>Maven</li>
-  <li>Insomnia</li>
+  <li>Insomnia / Postman</li>
 </ul>
 
 #### Usage
